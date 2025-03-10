@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Make Some Noice </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Wellcome to Make Some Noice Party Hall</h1>
+        <nav>
+            <ul>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#facilities">Facilities</a></li>
+                <li><a href="#booking">Book Now</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="gallery">
+        <h2>Our Hall</h2>
+        <div class="slideshow">
+            <img src="hall1.jpg" alt="Hall Picture 1">
+            <img src="hall2.jpg" alt="Hall Picture 2">
+            <img src="hall3.jpg" alt="Hall Picture 3">
+        </div>
+    </section>
+
+    <section id="facilities">
+        <h2>Facilities</h2>
+        <ul>
+            <li>Music System</li>
+            <li>Dance Floor</li>
+            <li>Bar</li>
+            <li>Restroom</li>
+            <li>Neon Lights</li>
+        </ul>
+    </section>
+
+    <section id="booking">
+        <h2>Book Your Party</h2>
+        <form id="bookingForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <input type="text" id="phone" placeholder="Your Phone" required>
+            <select id="partyType" required>
+                <option value="">Select Party Type</option>
+                <option value="Birthday">Birthday</option>
+                <option value="Bachelor">Bachelor</option>
+                <option value="Girls">Girls Party</option>
+                <option value="Boys">Boys Party</option>
+                <option value="Action Pack">Action Pack</option>
+            </select>
+            <input type="date" id="date" required>
+            <textarea id="message" placeholder="Additional Message"></textarea>
+            <button type="submit">Book Now</button>
+        </form>
+
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Call: <a href="tel:+8801764230549">01764230549</a></p>
+        <p>Email: <a href="mailto:arbinariyan49@gmail.com">arbinariyan49@gmail.com</a></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
